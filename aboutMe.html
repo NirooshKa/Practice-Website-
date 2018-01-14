@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	 <head> 
+	    <link rel="stylesheet" type="text/css" href="styleTemplate.css"> <!-- LINKS HTML FILE TO CSS! -->
+		<script src ="dynamic.js"></script> <!-- LINKS HTML TO JAVSCRIPT -->
+		<script src = "http://code.jquery.com/jquery.js"></script>
+		
+		<!-- All of my meta tags to ensure i'm taking advantage of SEO --> 
+		<meta charset = "UTF-8">
+		<meta name = "keywords" content = "programming, projects, github, resume, about me, web development">
+		<meta name = "description" content = "More information about me and my design/programming projects">
+		<meta name = "author" content = "Aaron Kammula">
+		<meta http-equiv = "refresh" content = "60"> <!-- Refresh every minute -->
+		<meta name = "viewport" content = "width=device-width,initial-scale=1.0"> <!-- VERY IMPORTANT TAG -->
+		<meta http-equiv = "X-UA-Compatible" content="ie=edge"> <!--To force IE to use the latest engine-->
+		<title>About me</title>
+		
+	 </head>
+		
+	 
+	 <body>
+		<nav class = "navbar"> 
+			<span class = "open-slide">
+				<a href = "#" onclick="openSlideMenu()"> 
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+						<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+						<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+					</svg>
+				</a>
+			</span>
+			<ul class = "navbar-nav">
+			   <li><a href = "#"> <span style = "font-size:15px">Click on the button on the left for the navigation menu</span></a></li>
+			</ul>
+		</nav>	
+		
+		<div id="side-menu" class="side-nav">
+			<a href="#" class = "btn-close" onclick="closeSlideMenu()">&times;</a> <!--Fancy way of writing "x"-->
+		<ul>
+		<li><a href = "home.html">Home</a></li>
+		<li><a href = "myResume.html">My Resumé</a></li>
+		<li><a href = "#">Past Projects</a></li>
+		<li><ul>
+				<li><a href = "skillsArduino.html">Arduino</a></li> <!-- Button #3.1 -->
+				<li><a href = "skillsAssembly.html">Assembly</a></li> <!-- Button #3.2 -->
+				<li><a href = "skillsC.html">C/C++</a></li> <!-- Button #3.3 -->
+				<li><a href = "skillSolidworks.html">Soildworks</a></li> <!-- Button #3.4 -->
+				<li><a href = "skillsVerilog.html">Verilog</a></li> <!-- Button #3.5 -->
+			</ul>
+		</li>
+		<li><a href = "skillsAndPros.html">Skills and Proficiencies</a></li>
+		<li><a href = "futureGoals.html">Future Goals</a></li>
+		</ul>
+		</div>
+		
+		
+		<div id = "main">
+			<h1><u>About Me</u></h1>
+			<h2>3rd year Computer Engineer student + PEY (Started in 2015, ending in 2020) at U of T.</h2>
+			<h2>My specializations are: <span style = "color: red">Networks</span>, <span style = "color:#CCCC00">Optics</span>, <span style = "color:green">Software</span> and <span style = "color:blue">Web Development (Front and Backend).</span> </h2>
+		 <img src="networks.jpg" alt="Network" width ="400" height = "350"> 
+		 <img src="optics.jpg" alt="Prism" width ="400" height = "350">
+		 <img src="software.jpg" alt="Computers" width ="500" height = "350">
+		</div>
+		
+		
+	 </body> 
+	 
+	 
+</html>

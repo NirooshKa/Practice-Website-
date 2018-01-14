@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	 <head> 
+	    <link rel="stylesheet" type="text/css" href="styleTemplate.css"> <!-- LINKS HTML FILE TO CSS! -->
+		<script src ="dynamic.js"></script> <!-- LINKS HTML TO JAVSCRIPT -->
+		<script src = "http://code.jquery.com/jquery.js"></script>
+		
+		<!-- All of my meta tags to ensure i'm taking advantage of SEO --> 
+		<meta charset = "UTF-8">
+		<meta name = "keywords" content = "programming, projects, github, resume, about me, web development">
+		<meta name = "description" content = "More information about me and my design/programming projects">
+		<meta name = "author" content = "Aaron Kammula">
+		<meta http-equiv = "refresh" content = "60"> <!-- Refresh every minute -->
+		<meta name = "viewport" content = "width=device-width,initial-scale=1.0"> <!-- VERY IMPORTANT TAG -->
+		<meta http-equiv = "X-UA-Compatible" content="ie=edge"> <!--To force IE to use the latest engine-->
+		<title>About me</title>
+		
+	 </head>
+		
+	 
+	 <body>
+		<nav class = "navbar"> 
+			<span class = "open-slide">
+				<a href = "#" onclick="openSlideMenu()"> 
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+						<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+						<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+					</svg>
+				</a>
+			</span>
+			<ul class = "navbar-nav">
+			   <li><a href = "#"> <span style = "font-size = 20px">&#8592;&#8592;&#8592;</span> <span style = "font-size:15px">Click there for the navigation menu</span></a></li>
+			</ul>
+		</nav>	
+		
+		<div id="side-menu" class="side-nav">
+			<a href="#" class = "btn-close" onclick="closeSlideMenu()">&times;</a> <!--Fancy way of writing "x"-->
+		<ul>
+		<li><a href = "home.html">Home</a></li>
+		<li><a href = "aboutMe.html">About Me</a></li>
+		<li><a href = "#">Past Projects</a></li>
+		<li><ul>
+				<li><a href = "skillsArduino.html">Arduino</a></li> <!-- Button #3.1 -->
+				<li><a href = "skillsAssembly.html">Assembly</a></li> <!-- Button #3.2 -->
+				<li><a href = "skillsC.html">C/C++</a></li> <!-- Button #3.3 -->
+				<li><a href = "skillSolidworks.html">Soildworks</a></li> <!-- Button #3.4 -->
+				<li><a href = "skillsVerilog.html">Verilog</a></li> <!-- Button #3.5 -->
+			</ul>
+		</li>
+		<li><a href = "skillsAndPros.html">Skills and Proficiencies</a></li>
+		<li><a href = "futureGoals.html">Future Goals</a></li>
+		</ul>
+		</div>
+		
+		
+		<div id = "main">
+	    <h1><u>Skills and Proficiencies</u></h1>
+		<h3><span style = "color: red">Proficient with:</span> Arduino UNO, C/C++, CSS, HTML5, MATLAB, Javascript ES3, Microsoft Word, Excel and Powerpoint.</h3>
+		<h3><span style = "color: blue">Familiar with:</span> AJAX, Java, MySQL, Node.js, Solidworks, Apache Tomcat and Maven, Python and Verilog.</h3> 
+		<h3><span style = "color: green">Has knowledge in:</span> Operating Systems, Photoshop, wiring, Vector Network Analyzer, Oscilloscope, Networks and AC/DC Circuit Analysis.</h3>	
+			
+		</div>
+		
+		
+	 </body> 
+	 
+	 
+</html>

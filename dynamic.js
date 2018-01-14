@@ -2,9 +2,12 @@
 
 //Toggle between hiding and showing the dropdown contents (takes all <a href> elements, and displays them)
 
-function openButton() {
-  document.getElementById("mySidebar").style.display = "block";
+function openSlideMenu() {
+	document.getElementById('side-menu').style.width = "250px";
+	document.getElementById('main').style.marginLeft='250px';	
 }
-function closeButton() {
-  document.getElementById("mySidebar").style.display = "none";
+
+function closeSlideMenu() {
+	document.getElementById('side-menu').style.width = "0px";
+	document.getElementById('main').style.marginLeft='0px';	
 }
